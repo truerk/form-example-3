@@ -1,0 +1,117 @@
+body{
+  background: url(background.png);
+  color: #fff;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-form{
+  width: 350px;
+  padding: 0px 5px;
+}
+.container-form form{  
+  width: 100%;
+  margin-top: -100px;  
+  display: flex;
+  flex-direction: column;
+}
+.header-form{
+  padding: 30px; 
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #282830;
+}
+.header-form label{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.body-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 20px;
+  background-color: #FFFFFF;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.body-form::after{
+  content:'';
+  position: absolute;
+  margin-top: -112px;
+  left: 50%;
+  border: 6px solid transparent;
+  border-bottom: 7px solid #fff; 
+}
+.input-group{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.form-input{
+  padding: 15px;
+  border: 1px solid #DEDEDE;
+  outline: none;
+  letter-spacing: 0.5px;
+}
+.fix-top{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.fix-bottom{
+  border-top: 0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.other-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.other-left{
+  display: flex;
+  align-items: center;
+}
+.link-gray{
+  color: #C0C2C0;
+  text-decoration: none;
+}
+.link-gray:hover{
+  text-decoration: underline;
+}
+.quest{
+  color: #A3A2A0;
+  border-radius: 20px;
+  width: 25px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  margin-right: 10px;
+}
+.form-button{
+  border: 1px solid #429FA5;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color: #31ABB6;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  outline: none;
+}
+.form-button:active{
+  box-shadow: inset 0px 0px 10px 0px #339096;
+}
